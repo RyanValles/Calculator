@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 115, 115);
+   
+}
+h1{
+ 
+}
+#numOpBox{
+    display: grid;
+    grid-column-end: span;
+    height: 410px;
+    width: 360px;
+    padding: 5px;
+    padding-left: 12px;
+    grid-template-columns: repeat(4, 1fr);
+}
+#calc{
+    border: 3px solid black;
+    border-width: 2px;
+    width: 375px;
+    height: 550px;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: gainsboro;
+}
+#display{
+    border-bottom: 3px solid black;
+    height: 125px;
+    background-color: rgb(9, 163, 9);
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+.button{
+    width: 70px; 
+    height: 70px;
+    margin: 5px;
+    font-size:x-large;
+}
